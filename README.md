@@ -40,6 +40,15 @@
 ### Test Data
 - The final stage outputs the loss on the test data. This indicates how well the model performs on unseen data and is the best measure of generalisation
 
+## Additional Features
+
+### Changing Activation Functions
+- Parameters were added to the method in the model class to allow the user to change the activation function used.
+
+### Testing multiple Activation Functions
+- A final section of code was added to compare the per epoch training loss of the model when using different activation functions and display this on a graph.
+- This was ultimately added for the purpose of experimentating in the report, however, it can be adjusted to include more activation functions, and also print out test losses if required.
+
 ## Using the Program
 
 ### Adjusting parameters
@@ -69,5 +78,6 @@
 - Then the visualisation of these losses
 - Finally, the testing loss
 - Any of these outputs can be code commented to remove them from the output flow
+
 
   
